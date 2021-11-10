@@ -1,0 +1,77 @@
+.wrapper {
+  /* display: ; */
+  background-image: radial-gradient(#13add8, #1687a7);
+  width: 7rem;
+  height: 7rem;
+  text-align: center;
+  border-radius: 50%;
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  cursor: pointer;
+}
+.icon {
+  position: relative;
+  margin-top: 3.5rem;
+}
+.icon,
+.icon::before,
+.icon::after {
+  /* z-index: 2; */
+  width: 3.5rem;
+  height: 3px;
+  background-color: gray;
+  /* border-top-left-radius: 7%;
+  border-top-right-radius: 7%;
+  border-bottom-left-radius: 7%;
+  border-bottom-right-radius: 7%; */
+
+  display: inline-block;
+}
+.icon::before,
+.icon::after {
+  transition: all 0.2s;
+  content: "";
+  position: absolute;
+  left: 0;
+}
+.icon:before {
+  top: -1rem;
+}
+.icon:after {
+  top: 1rem;
+}
+.wrapper:hover .icon::before {
+  top: -1.2rem;
+}
+.wrapper:hover .icon::after {
+  top: 1.2rem;
+}
+@keyframes nav_active {
+  from {
+    height: 6rem;
+    width: 6rem;
+    top: 7rem;
+    right: 7rem;
+    border-radius: 10%;
+  }
+  to {
+    height: 35rem;
+    width: 25rem;
+    top: 6rem;
+    right: 6rem;
+    border-radius: 10%;
+  }
+}
+.nav_deactive {
+  height: 35rem;
+  width: 25rem;
+  border-radius: 10%;
+
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  background-image: radial-gradient(#13add8, #1687a7);
+  animation-name: nav_active;
+  animation-duration: 0.3s;
+}

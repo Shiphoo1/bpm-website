@@ -1,5 +1,6 @@
+import Navigation from "./components/Navigation";
 function App() {
-  return <div>blalalalalalalala</div>;
+  return <Navigation />;
 }
 
 export default App;
