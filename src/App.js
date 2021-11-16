@@ -1,5 +1,7 @@
 import NavigationContainer from "./components/NavigationContainer";
-import SectionOne from "./components/Section1";
+import SectionOne from "./components/SectionOne";
+import Logos from "./components/Logos";
+
 function App() {
   return (
     <div>
@@ -13,6 +15,7 @@ function App() {
       ></link>
       <NavigationContainer />
       <SectionOne />
+      <Logos />
     </div>
   );
 }

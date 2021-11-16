@@ -1,5 +1,5 @@
 import styles from "./SectionOne.module.css";
-import { BsArrowRight } from "react-icons/bs";
+import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 const SectionOne = () => {
   return (
     <div className={styles.container}>
@@ -22,8 +22,16 @@ const SectionOne = () => {
           </div>
         </div>
       </div>
-      <div className={styles.items}>
-        <div className={styles.clip}></div>
+      <div className={`${styles.items} ${styles.item2}`}>
+        <div className={styles.clip}>
+          <div className={styles.smallButton}>
+            <BsArrowLeft style={{ fontSize: "2.4rem", fill: "#919eab" }} />
+          </div>
+          <div className={styles.smallButton}>
+            <BsArrowRight style={{ fontSize: "2.4rem", fill: "#919eab" }} />
+          </div>
+        </div>
+        {/* <div className={styles.smallButton}></div> */}
       </div>
     </div>
   );

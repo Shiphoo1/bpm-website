@@ -1,0 +1,20 @@
+.logosWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.logosFlex {
+  display: flex;
+  width: 120rem;
+
+  align-items: center;
+  justify-content: space-around;
+}
+.logosItems {
+  border-radius: 8px;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+  width: 13rem;
+  height: 12rem;
+  border: 1px solid black;
+}
