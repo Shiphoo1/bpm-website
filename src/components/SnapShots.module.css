@@ -1,0 +1,13 @@
+.container {
+  display: block;
+  text-align: center;
+  height: 170.3rem;
+  background-color: #ffffff;
+}
+.header {
+  display: inline-block;
+  margin-top: 4.8rem;
+  font-weight: 400;
+  font-size: 3.2rem;
+  color: #2c2d2e;
+}

@@ -1,6 +1,8 @@
 import NavigationContainer from "./components/NavigationContainer";
-import SectionOne from "./components/SectionOne";
+import Test from "./components/Test";
 import Logos from "./components/Logos";
+import Advantages from "./components/Advantages";
+import SnapShots from "./components/SnapShots";
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
         rel="stylesheet"
       ></link>
       <NavigationContainer />
-      <SectionOne />
+      <Test />
       <Logos />
+      <Advantages />
+      <SnapShots />
     </div>
   );
 }
