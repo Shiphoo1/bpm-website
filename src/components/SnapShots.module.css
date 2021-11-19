@@ -1,5 +1,6 @@
 .container {
   display: block;
+
   text-align: center;
   height: 170.3rem;
   background-color: #ffffff;
@@ -10,4 +11,92 @@
   font-weight: 400;
   font-size: 3.2rem;
   color: #2c2d2e;
+  margin-bottom: 6rem;
+}
+.snapShotsWrapper {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 6rem;
+  /* margin-left: 12rem; */
+}
+.snaps {
+  /* background: url(/snapShots.svg); */
+  height: 43.4rem;
+  width: 68.7rem;
+  /* background-color: red; */
+}
+.text {
+  text-align: left;
+  margin-left: 6rem;
+  height: 43.4rem;
+  width: 40rem;
+  /* background-color: red; */
+}
+
+.oppositeSnap {
+  position: relative;
+  height: 50.55rem;
+  margin-left: 6rem;
+
+  width: 77.6rem;
+  /* background-color: orange; */
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+.oppositeText {
+  margin-left: 10rem;
+  height: 43.4rem;
+  width: 40rem;
+  /* background-color: blue; */
+  grid-row: 2/3;
+  grid-column: 1/2;
+  align-self: flex-end;
+}
+.textSmallHeader {
+  margin-bottom: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+
+  color: #2c2d2e;
+}
+.textDesc {
+  margin-bottom: 2.4rem;
+  display: flex;
+  align-items: baseline;
+}
+.textDescIcon {
+  margin-right: 2.3rem;
+  text-align: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  background-color: #d2ddff;
+  border-radius: 4px;
+}
+.textDescText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 0.2px;
+  color: #2c2d2e;
+}
+.background {
+  width: 77.6rem;
+  height: 50.55rem;
+  background-color: #305de5;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  position: absolute;
+}
+.oppositeSnapPic {
+  right: 0;
+  z-index: 2;
+  height: 43.4rem;
+  width: 68.7rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }

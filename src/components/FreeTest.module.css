@@ -1,0 +1,97 @@
+.container {
+  position: relative;
+  height: 55.4rem;
+  background-color: #0f1f51;
+  display: flex;
+  justify-content: center;
+}
+.flexWrapper {
+  height: 55.4rem;
+
+  display: flex;
+  flex-basis: 50%;
+}
+.text {
+  padding-left: 11.9rem;
+  padding-top: 14.1rem;
+  display: flex;
+  flex-direction: column;
+
+  flex-basis: 50%;
+}
+.textHeader {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+.textDescription {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-bottom: 4.6rem;
+  letter-spacing: 0.2px;
+  width: 47.1rem;
+  color: #ffffff;
+}
+.image {
+  position: relative;
+  flex-basis: 50%;
+}
+.button {
+  cursor: pointer;
+  font-family: "roboto";
+  width: 37.1rem;
+  height: 6.4rem;
+
+  background-color: #ff9e00;
+
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+
+  justify-content: center;
+  align-items: center;
+}
+.buttonItems {
+  margin-right: 0.5rem;
+  font-size: 1.6rem;
+}
+.circle {
+  width: 54rem;
+  height: 49rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 0;
+}
+.handPic {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-30%);
+  bottom: 0;
+  right: left;
+  z-index: 3;
+  width: 38.2rem;
+  height: 44.2rem;
+}
+.circleWrapper {
+  width: 54rem;
+  height: 49rem;
+}
+.smallCircle {
+  margin-left: auto;
+  margin-top: 5rem;
+  width: 5.7rem;
+  height: 5.7rem;
+  border-radius: 50%;
+  background-color: #ffffff;
+}

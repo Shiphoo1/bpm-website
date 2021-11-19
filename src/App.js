@@ -3,6 +3,8 @@ import Test from "./components/Test";
 import Logos from "./components/Logos";
 import Advantages from "./components/Advantages";
 import SnapShots from "./components/SnapShots";
+import FreeTest from "./components/FreeTest";
+import Comments from "./components/Comments";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Logos />
       <Advantages />
       <SnapShots />
+      <FreeTest />
+      <Comments />
     </div>
   );
 }

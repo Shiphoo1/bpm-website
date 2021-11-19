@@ -12,14 +12,6 @@ const SectionOne = () => {
             biznes prosesləri bir mərkəzdən idarə edə, işlərin gedişatına və
             nəticələrə nəzarət edə bilərsiniz.
           </p>
-          {/* <div className={styles.button}>
-            <div className={styles.boxItems}>TEST EDIN</div>
-            <div className={styles.boxItems}>
-              <BsArrowRight
-                style={{ fontSize: "2.4rem", marginTop: "0.8rem" }}
-              />
-            </div>
-          </div> */}
         </div>
       </div>
       <div className={`${styles.items} ${styles.item2}`}>

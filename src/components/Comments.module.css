@@ -1,0 +1,67 @@
+.container {
+  padding-top: 5rem;
+  display: block;
+  height: 42.1rem;
+  background-color: #f9fafb;
+}
+.header {
+  display: inline-block;
+  padding-left: 15.4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 111rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  height: 10rem;
+  /* background-color: red; */
+}
+.headerText {
+  margin-left: auto;
+  text-align: center;
+}
+.headerTextPrimary {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2rem;
+
+  /* identical to box height, or 137% */
+
+  color: #2c2d2e;
+}
+.headerTextSecondary {
+  font-weight: normal;
+  font-size: 14px;
+  /* identical to box height, or 171% */
+
+  /* secondary text */
+
+  color: #919399;
+}
+.buttons {
+  margin-top: 0.5rem;
+  margin-left: auto;
+  display: flex;
+}
+.smallButton {
+  color: #919eab;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 4;
+  transition: all 0.3s;
+  width: 6.4rem;
+  height: 6.4rem;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.smallButton:first-of-type {
+  margin-right: 2.6rem;
+}
+.smallButton:hover {
+  transition-timing-function: ease-in-out;
+  color: black;
+  box-shadow: 1px 0px 15px 0px rgba(34, 60, 80, 0.24);
+}
