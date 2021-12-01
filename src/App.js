@@ -6,7 +6,7 @@ import SnapShots from "./components/SnapShots";
 import FreeTest from "./components/FreeTest";
 import Comments from "./components/Comments";
 import FAQ from "./components/FAQ";
-
+import Footer from "./components/Footer";
 function App() {
   return (
     <div>
@@ -34,6 +34,7 @@ function App() {
       <FreeTest />
       <Comments />
       <FAQ />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  background: #0f1f51;
+  height: 26.6rem;
+}
+.smallContainer {
+  width: 20rem;
+  height: 20rem;
+  margin-left: 10rem;
+  background-color: red;
+}
