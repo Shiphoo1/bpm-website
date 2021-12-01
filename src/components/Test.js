@@ -3,7 +3,7 @@ import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 const SectionOne = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.items}>
+      <div className={styles.item1}>
         <div className={styles.innerModal}>
           <h1 className={styles.header}>Effektiv Idarə et</h1>
           <p className={styles.par}>
@@ -14,8 +14,8 @@ const SectionOne = () => {
           </p>
         </div>
       </div>
-      <div className={`${styles.items} ${styles.item2}`}>
-        <div className={styles.clip}>
+      <div className={`${styles.item2}`}>
+        <div style={{ background: "url(/test.svg)" }} className={styles.image}>
           <div className={styles.smallButton}>
             <BsArrowLeft style={{ fontSize: "2.4rem", fill: "#919eab" }} />
           </div>
@@ -23,8 +23,9 @@ const SectionOne = () => {
             <BsArrowRight style={{ fontSize: "2.4rem", fill: "#919eab" }} />
           </div>
         </div>
-        {/* <div className={styles.smallButton}></div> */}
       </div>
+
+      {/* <div className={styles.smallButton}></div> */}
     </div>
   );
 };

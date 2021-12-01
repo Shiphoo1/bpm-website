@@ -1,0 +1,185 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.header {
+  margin-bottom: 4.8rem;
+  margin-top: 4.8rem;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  /* identical to box height, or 117% */
+
+  text-align: center;
+  letter-spacing: -0.02em;
+
+  /* Neutrals/2 */
+
+  color: #23262f;
+}
+.questionBox {
+  background-color: #ffffff;
+  z-index: 4;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3rem;
+  margin-bottom: 2.4rem;
+  border-bottom: 1px solid #e6e8ec;
+  width: 54.6rem;
+}
+.number {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin-right: 3rem;
+  /* identical to box height, or 150% */
+
+  /* Neutrals/4 */
+
+  color: #777e91;
+}
+.button {
+  cursor: pointer;
+}
+.title {
+  width: 46rem;
+  text-align: start;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+
+  letter-spacing: 0.2px;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* main text */
+
+  color: #2c2d2e;
+}
+.boxWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  /* position: absolute; */
+  /* margin-bottom: 2.4rem; */
+  margin-left: auto;
+  width: 50rem;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  /* line-height: 24px; */
+  /* or 171% */
+
+  /* Neutrals/4 */
+
+  color: #777e91;
+  /* transform: translateY(-100%); */
+  /* animation-name: opening;
+  animation-duration: 600ms; */
+}
+
+/* @keyframes opening {
+  from {
+    opacity: 0;
+    transform: translateY(-60%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */
+.questionWrapperActivated {
+  width: 54.6rem;
+  margin: auto;
+  overflow: hidden;
+  height: 20rem;
+  margin-bottom: 2.4rem;
+  animation-name: resizing;
+  animation-duration: 600ms;
+}
+.questionWrapper {
+  width: 54.6rem;
+  margin: auto;
+  overflow: hidden;
+  height: 7.2rem;
+  margin-bottom: 2.4rem;
+  animation-name: unresizing;
+  animation-duration: 600ms;
+}
+.logo {
+  transform: rotate(180deg);
+  transition: all 600ms;
+}
+.logoActivated {
+  transform: rotate(0);
+  transition: all 600ms;
+}
+@keyframes unresizing {
+  from {
+    height: 20rem;
+  }
+  to {
+    height: 7.2rem;
+  }
+}
+
+@keyframes resizing {
+  from {
+    height: 7.2rem;
+  }
+  to {
+    height: 20rem;
+  }
+}
+.questionFormWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 12rem;
+}
+.questionForm {
+  width: 61.6rem;
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  margin-right: 8.5rem;
+  min-width: 49.9rem;
+  min-height: 61.3rem;
+}
+.formText {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2rem;
+  margin-bottom: 3.2rem;
+  line-height: 5.2rem;
+  /* identical to box height, or 162% */
+
+  letter-spacing: 0.02em;
+
+  /* main text */
+
+  color: #2c2d2e;
+}
+.formP {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 3.2rem;
+  /* or 29px */
+
+  letter-spacing: 0.2px;
+
+  /* secondary text */
+
+  color: #919399;
+}
