@@ -1,11 +1,89 @@
 .container {
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-top: 3.2rem;
+  padding-bottom: 1.4rem;
   display: flex;
   background: #0f1f51;
   height: 26.6rem;
+  justify-content: space-between;
 }
 .smallContainer {
-  width: 20rem;
-  height: 20rem;
-  margin-left: 10rem;
-  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+.smallContainer2 {
+  display: flex;
+  flex-direction: column;
+  /* gap: 3.4rem; */
+}
+.header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+
+  /* or 133% */
+  width: 27.4rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+.logos {
+  display: flex;
+  gap: 2.3rem;
+}
+.copyright {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 2rem;
+  /* identical to box height, or 167% */
+  margin-top: auto;
+  color: #ffffff;
+}
+input {
+  outline: none;
+  width: 33.1rem;
+  height: 4.8rem;
+  background: rgba(255, 255, 255, 0.281);
+  /* opacity: 0.1; */
+  border: none;
+  padding: 1.8rem;
+  font-size: 1.4rem;
+  color: #ffffff;
+  border-radius: 4px;
+  margin-bottom: 1.6rem;
+}
+input[name="emailInput"]::placeholder {
+  color: #ffffff;
+}
+.button {
+  cursor: pointer;
+  font-family: "roboto";
+  width: 33.1rem;
+  height: 4.8rem;
+
+  background-color: #ff9e00;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: row;
+
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  /* identical to box height, or 137% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
 }

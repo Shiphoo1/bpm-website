@@ -3,7 +3,7 @@ import { MdOutlineDone } from "react-icons/md";
 
 const SnapShots = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id={"SnapShots"}>
       <div className={styles.header}>Nə üçün istifadə edə bilərəm</div>
       <div className={styles.snapShotsWrapper}>
         <div

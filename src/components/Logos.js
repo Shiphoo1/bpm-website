@@ -9,7 +9,7 @@ import {
 } from "react-icons/si";
 const Logos = () => {
   return (
-    <div className={styles.logosWrapper}>
+    <div className={styles.logosWrapper} id={"Logos"}>
       <div className={styles.logosFlex}>
         <div className={styles.logosItems}>
           <SiAsus size={"10rem"} fill={"#C9CBD0"} />

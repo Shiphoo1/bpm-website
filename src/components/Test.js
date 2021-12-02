@@ -2,7 +2,7 @@ import styles from "./Test.module.css";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 const SectionOne = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id={"Test"}>
       <div className={styles.item1}>
         <div className={styles.innerModal}>
           <h1 className={styles.header}>Effektiv Idarə et</h1>

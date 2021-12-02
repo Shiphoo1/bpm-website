@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+}
+.navItems {
+  cursor: pointer;
+  line-height: 2.8rem;
+  font-size: 1.4rem;
+  margin: 1rem;
+  height: 2.8rem;
+  font-weight: 400;
+  color: #ffffff;
+}
+.navItems:first-of-type {
+  cursor: pointer;
+  line-height: 2.8rem;
+  font-size: 1.4rem;
+  margin-left: 0;
+  height: 2.8rem;
+  font-weight: 400;
+  color: #ffffff;
+}

@@ -3,7 +3,7 @@ import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
 
 const FreeTest = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id={"FreeTest"}>
       <div className={styles.flexWrapper}>
         <div className={styles.text}>
           <div className={styles.textHeader}>Pulsuz Yoxlayın</div>

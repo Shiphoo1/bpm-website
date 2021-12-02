@@ -91,7 +91,7 @@ const Component = ({ question, index }) => {
 };
 const FAQ = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id={"FAQ"}>
       <div className={styles.header}>Tez-tez verilən suallar</div>
       {questions.map((question, index) => {
         return <Component question={question} index={index} />;

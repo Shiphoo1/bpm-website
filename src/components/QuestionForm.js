@@ -53,7 +53,7 @@ const QuestionForm = () => {
           className={styles.input}
           value={userInput.enteredName}
           onChange={nameChangeHandler}
-          placeHolder={"Adınızı daxil edin"}
+          placeholder={"Adınızı daxil edin"}
           type="text"
         ></input>
         <label className={styles.label}>Email</label>
@@ -61,7 +61,7 @@ const QuestionForm = () => {
           className={styles.input}
           value={userInput.enteredEmail}
           onChange={emailChangeHandler}
-          placeHolder={"Emailinizi daxil edin"}
+          placeholder={"Emailinizi daxil edin"}
           type="text"
         ></input>
         <label className={styles.label}>Telefon</label>
@@ -69,12 +69,12 @@ const QuestionForm = () => {
           className={styles.input}
           value={userInput.enteredPhone}
           onChange={phoneChangeHandler}
-          placeHolder={"Telefon nömrənizi daxil edin"}
+          placeholder={"Telefon nömrənizi daxil edin"}
           type="text"
         ></input>
         <input
           className={styles.input}
-          placeHolder={"Müraciyətiniz daxil edin"}
+          placeholder={"Müraciyətiniz daxil edin"}
           type="text"
         ></input>
       </form>
